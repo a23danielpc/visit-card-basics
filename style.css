@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Inter&display=swap');
+
+article{
+    width: 300px;
+    background-color: rgb(137, 107, 238);
+}
+article:child{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    justify-content: space-around;
+}
+img{
+    width: 200px;
+    border-radius: 10px;
+    border-style:solid;
+    border-color: aquamarine;
+    align-items: center;
+}
+h1{
+    font-family: Agbalumo;
+    color: aquamarine;
+    justify-content: center;
+}
+button,p{
+    font-family: Inter;
+}
+button:first-of-type{
+    border-radius: 10px;
+    border-style: solid;
+    color:rgb(137, 107, 238);
+    background-color: white;
+    border-color: aquamarine;
+}
+button:nth-child(2){
+    background-color: aquamarine;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: white;
+    color:rgb(137, 107, 238);
+}
+p{
+    color:aquamarine;
+}
+
+button:first-of-type:hover{
+    border-radius: 10px;
+    border-style: solid;
+    background-color:rgb(137, 107, 238);
+    color: aquamarine;
+    border-color: aquamarine;
+}
+button:nth-child(2):hover{
+    color: aquamarine;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: white;
+    background-color:rgb(137, 107, 238);
+}
